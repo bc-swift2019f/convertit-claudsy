@@ -52,6 +52,7 @@ class ViewController: UIViewController {
         signSegment.isHidden=true
     }
     
+    
     func calculateConversion() {
         guard let inputValue=Double(userInput.text!) else {
             if userInput.text != "" {
